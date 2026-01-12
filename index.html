@@ -3,136 +3,118 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jankiz Hex | Official Links</title>  <!-- Font Awesome Icons -->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     body {
       min-height: 100vh;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
       display: flex;
       align-items: center;
       justify-content: center;
+      background: linear-gradient(270deg, #ff416c, #ff4b2b, #833ab4, #1cb5e0);
+      background-size: 800% 800%;
+      animation: gradientBG 20s ease infinite;
       color: #fff;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
     .container {
       width: 100%;
-      max-width: 420px;
-      background: rgba(255, 255, 255, 0.08);
-      backdrop-filter: blur(12px);
-      border-radius: 20px;
-      padding: 30px 25px;
+      max-width: 450px;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(15px);
+      border-radius: 25px;
+      padding: 35px 30px;
       text-align: center;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-      animation: fadeIn 1.2s ease;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+      animation: fadeIn 1s ease;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
 
     .avatar {
-      width: 110px;
-      height: 110px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
-      margin: 0 auto 15px;
+      margin: 0 auto 20px;
       background: linear-gradient(45deg, #ff416c, #ff4b2b);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 40px;
+      font-size: 48px;
       font-weight: bold;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
     }
 
     h1 {
-      font-size: 26px;
-      margin-bottom: 8px;
-    }
-
-    p {
-      font-size: 14px;
-      opacity: 0.85;
-      margin-bottom: 25px;
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 12px #fff, 0 0 24px #ff416c, 0 0 36px #ff4b2b;
     }
 
     .links {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 20px;
     }
 
     .link {
       text-decoration: none;
       color: #fff;
-      padding: 15px;
-      border-radius: 14px;
+      padding: 18px;
+      border-radius: 16px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 12px;
-      font-size: 18px;
-      font-weight: 600;
-      transition: all 0.3s ease;
+      gap: 15px;
+      font-size: 19px;
+      font-weight: 700;
+      transition: all 0.35s ease;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
 
-    .link i {
-      font-size: 22px;
-    }
+    .link i { font-size: 24px; }
 
-    .instagram {
-      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
-    }
-
-    .youtube {
-      background: #ff0000;
-    }
-
-    .telegram {
-      background: #0088cc;
-    }
+    .instagram { background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); }
+    .youtube { background: #ff0000; }
+    .telegram { background: #0088cc; }
 
     .link:hover {
-      transform: translateY(-4px) scale(1.02);
-      box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+      filter: brightness(1.15);
     }
 
     footer {
-      margin-top: 25px;
-      font-size: 12px;
-      opacity: 0.6;
+      margin-top: 30px;
+      font-size: 13px;
+      opacity: 0.7;
     }
+
   </style></head>
-<body>  <div class="container">
+<body>
+  <div class="container">
     <div class="avatar">JH</div>
-    <h1>Jankiz Hex</h1>
-    <p>تابعني على جميع منصات التواصل الاجتماعي</p><div class="links">
+    <h1>مرحبًا بك في عالم Jankiz Hex!</h1><div class="links">
   <a class="link instagram" href="https://www.instagram.com/jankiz.hex?igsh=djRnMDF1b2t6dndk" target="_blank">
-    <i class="fab fa-instagram"></i>
-    إنستقرام
+    <i class="fab fa-instagram"></i> إنستقرام
   </a>
 
   <a class="link youtube" href="https://youtube.com/@jankizhex7789?si=ASnSoM7vWUNJuBlw" target="_blank">
-    <i class="fab fa-youtube"></i>
-    يوتيوب
+    <i class="fab fa-youtube"></i> يوتيوب
   </a>
 
   <a class="link telegram" href="https://t.me/HexJankiz1111" target="_blank">
-    <i class="fab fa-telegram"></i>
-    تيليجرام
+    <i class="fab fa-telegram"></i> تيليجرام
   </a>
 </div>
 
-<footer>
-  © 2026 Jankiz Hex
-</footer>
+<footer>© 2026 Jankiz Hex</footer>
 
   </div>  <script>
-    // تأثير بسيط عند الضغط
     document.querySelectorAll('.link').forEach(link => {
       link.addEventListener('click', () => {
         link.style.opacity = '0.85';
